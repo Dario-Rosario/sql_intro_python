@@ -150,17 +150,17 @@ if __name__ == '__main__':
     insert_persona('Max', 35, 'Estados Unidos')
     insert_persona('Mirta', 93, 'Argentina')
 
-    update_persona_age('Max', 52)
-    delete_persona('Max')
+    #update_persona_age('Max', 52)
+    #delete_persona('Max')
 
-    show()
+    #show()
 
-    group = [('Max', 40, 'Estados Unidos'),
-             ('SQL', 13, 'Inglaterra'),
-             ('SQLite', 20, 'Estados Unidos'),
-             ]
+    #group = [('Max', 40, 'Estados Unidos'),
+    #         ('SQL', 13, 'Inglaterra'),
+    #         ('SQLite', 20, 'Estados Unidos'),
+    #         ]
 
-    insert_grupo(group)
+    #insert_grupo(group)
 
     # Prestar atención que ahora se agrega nuevamente Max
     # pero con un nuevo id (id=5), y el ex id de Max (id=3)
